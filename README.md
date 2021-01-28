@@ -19,6 +19,9 @@ docker run -it tensorflow/tensorflow:latest-devel을 사용하여 container 실�
 ( b.gcr.io가 앞에 붙으면 실행이 되질 않음. -> 이유 모름^^;) 
 
 
+
+
+
 혹은 docker toolbox에서 
 $ docker pull tensorflow/tensorflow를 통해 image pull 한 후,
 
