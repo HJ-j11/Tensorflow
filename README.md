@@ -34,7 +34,11 @@ $ docker exec -it xxx(name) bash를 통해 tensorflow 창에 진입하였다면 
 #pip install jupyter notebook
 
 설치하는 마지막 과정에서 upgrade를 하라고 함.
-upgrade 후 jupyter notebook --allow-root 를 덧붙여 실행이 되도록 함.
+
+upgrade 후 jupyter notebook --ip= xxx.xxx.xx.xx --allow-root 를 덧붙여 실행이 되도록 함.
+
+※ docker inspect (container name) | grep IPAddress 
+확인하여 ip 주소 기억하기
 
 
 
