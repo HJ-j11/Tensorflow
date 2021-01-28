@@ -29,6 +29,8 @@ $ docker run -it -p xxxx:xxxx --name xxx tensorflow/tensorflow를 하여 contain
 
 $ docker exec -it xxx(name) bash를 통해 tensorflow 창에 진입하였다면 성공!
 
+
+
 이후 jupyter notebook에 실행하고 싶어 tensorflow 화면에 진입하여 #표시가 나왔을 때 다음과 같이 입력해주었다.
 
 #pip install jupyter notebook
