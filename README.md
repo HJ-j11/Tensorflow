@@ -21,10 +21,13 @@ docker run -it tensorflow/tensorflow:latest-devel을 사용하여 container 실�
 
 
 
-
+---- 
 혹은 docker toolbox에서 
 $ docker pull tensorflow/tensorflow를 통해 image pull 한 후,
 
 $ docker run -it -p xxxx:xxxx --name xxx tensorflow/tensorflow를 하여 container 실행하기
 
 $ docker exec -it xxx(name) bash를 통해 tensorflow 창에 진입하였다면 성공!
+
+이후 jupyter notebook에 실행하고 싶어 tensorflow 화면에 진입하여 #표시가 나왔을 때 다음과 같이 입력해주었다.
+#pip install jupyter notebook
