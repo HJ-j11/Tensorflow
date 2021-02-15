@@ -46,9 +46,9 @@ upgrade 후 jupyter notebook --ip= xxx.xxx.xx.xx --allow-root 를 덧붙여 실�
 
 tensorflow 실행 후, python으로 컨테이너 안에서 실행할 수 도 있음. (2.15 추가적으로 확인)
 대신 컨테이너 진입후 
-# apt update
+#apt update
 
-# apt install python3-pip
+#apt install python3-pip
 
-# pip3 install tensorflow
+#pip3 install tensorflow
 
